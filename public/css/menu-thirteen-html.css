@@ -1,0 +1,26 @@
+.menu-thirteen-ht{
+    width: 90%;
+    height: 60px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    & h3{
+        height: 100%;
+        display: flex;
+        font-size: 16px;
+        color: #0c0c0c;
+    align-items: center;
+    }
+    & p{
+        height: 100%;
+    align-items: center;
+    display: flex;
+    color: #19bfd3;
+    fill: #19bfd3;
+    font-size: 12px;
+    }
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iranyerkan;
+}
+body {
+  min-height: 1496px;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: iranyerkan;
+  src: url(../fonts/IRANYekanWeb-Bold.eot);
+  src: url(../fonts/IRANYekanWeb-Bold.ttf);
+  src: url(../fonts/IRANYekanWeb-Bold.woff);
+  src: url(../fonts/IRANYekanWeb-Bold.woff2);
+}
+:root {
+  --bg-gray: #f0f0f1;
+  --color-one: #818588;
+  --line-color: #e0e0e2;
+  --line-2-color: red;
+  --color-menu: #ffffff;
+}
+.line {
+  width: 1px;
+  height: 24px;
+  background-color: var(--line-color);
+  display: block;
+}
+.line-2 {
+  width: 1px;
+  height: 12px;
+  background-color: var(--line-2-color);
+  display: block;
+}
+.gozineeh {
+  width: 96%;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  margin: 0px 20px;
+  font-size: 12px;
+}
+.red-line {
+  width: 2px;
+  height: 16px;
+  background-color: red;
+  display: inline-block;
+}
+.svg-left {
+  width: 40px;
+  height: 40px;
+  color: black;
+  display: inline-block;
+  line-height: 40px;
+}

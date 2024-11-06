@@ -1,0 +1,58 @@
+.slider-five-ht {
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  .berand-mahbob {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    & h3 {
+      font-size: 20px;
+    }
+    & p {
+      fill: #f9bc00;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .child-slider-five-berands {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 80px;
+    .swiper {
+        width: 100%;
+        height: 100%;
+        .swiper-wrapper{
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-left: 1px solid #e0e0e2;
+                & img {
+                    width: 110px;
+                    height: 110px;
+                    object-fit: cover;
+                  }
+              }
+        }
+      }
+  }
+}
+
+
+
+
+

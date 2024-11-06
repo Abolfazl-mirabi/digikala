@@ -1,0 +1,51 @@
+.poshtibani-online {
+  width: 50px;
+  height: 50px;
+  background-color: #ef4056;
+  fill: #fff;
+  border-radius: 50%;
+  display: flex;
+  z-index: 22;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  .child {
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    position: absolute;
+    top: -600px;
+    right: 0;
+    display: none;
+  }
+  &:focus {
+    .child {
+      display: block;
+      z-index: 11111111111111111;
+    }
+  }
+}
+.poshtibani-supermarket {
+  width: 270px;
+  height: 60px;
+  background-color: #029a49;
+  color: #fff;
+  fill: #fff;
+  padding-right: 10px;
+  border-radius: 50px;
+  position: fixed;
+  column-gap: 5px;
+  bottom: 40px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  z-index: 22;
+  & span {
+    width: 1px;
+    height: 16px;
+    display: flex;
+    background-color: #fff;
+  }
+}

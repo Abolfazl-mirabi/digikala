@@ -1,0 +1,81 @@
+.menu-three-ht {
+  width: 90%;
+  height: 445px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  .kharid-menu-three-ht {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & h3 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
+  .mahsolat-menu-three-one-ht {
+    width: 90%;
+    height: 170px;
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    & a {
+      width: 150px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 110px;
+        height: 110px;
+        display: block;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+      }
+      & h4 {
+        width: 140px;
+        height: 30px;
+        font-size: 15px;
+        position: absolute;
+        top: 120px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+  .mahsolat-menu-three-two-ht {
+    width: 90%;
+    height: 170px;
+    position: absolute;
+    top: 270px;
+    display: flex;
+    justify-content: space-between;
+    & a {
+      width: 150px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 110px;
+        height: 110px;
+        display: block;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+      }
+      & h4 {
+        width: 140px;
+        height: 30px;
+        font-size: 15px;
+        position: absolute;
+        top: 120px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+}

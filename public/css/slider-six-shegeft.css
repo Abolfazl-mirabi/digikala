@@ -1,0 +1,92 @@
+.slider-six {
+  width: 98%;
+  height: 115px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  .soper-market {
+    width: 100%;
+    height: 100%;
+    background-color: #ebeeed;
+    border-radius: 10px;
+  }
+  .fresh {
+    width: 500px;
+    height: 62px;
+    position: absolute;
+    top: 27.5px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    & img {
+      width: 66px;
+      height: 65px;
+      display: flex;
+      object-fit: cover;
+    }
+    & h5 {
+      display: flex;
+    }
+    & p {
+      width: 120px;
+      height: 30px;
+      background-color: #029a49;
+      display: flex;
+      line-height: 30px;
+      border-radius: 20px;
+      justify-content: center;
+      color: whitesmoke;
+    }
+  }
+  .images {
+    width: 800px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    gap: 10px;
+    position: absolute;
+    top: 21.5px;
+    right: 850px;
+    .child-imag {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & img {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    .tamam-kala {
+      width: 145px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    background-color: white;
+      gap: 10px;
+      border-radius: 50px;
+      & h5 {
+        font-size: 15px;
+        display: flex;
+        color: #029a49;
+      }
+      & p {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        font-size: 20px;
+        fill: #029a49;
+      }
+    }
+  }
+}

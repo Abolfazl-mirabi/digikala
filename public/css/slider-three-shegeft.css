@@ -1,0 +1,44 @@
+.slider-three {
+  width: 98%;
+  height: 170px;
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-wrapper {
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        & img {
+          display: block;
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          position: absolute;
+          top: 5px;
+        }
+        & p {
+          width: 100%;
+          height: 30px;
+          display: inline-block;
+          position: absolute;
+          top: 110px;
+          font-size: 14px;
+          line-height: 30px;
+        }
+      }
+      & .dastebandi-full {
+        background-color: #f0f0f1;
+        border-radius: 10px;
+      }
+    }
+  }
+}
